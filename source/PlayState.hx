@@ -1383,7 +1383,6 @@ class PlayState extends MusicBeatState
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);
 			FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 		}
-                ModchartFuncs.loadLuaFunctions();
 		callOnLuas('onCreatePost', []);
 
 		super.create();
