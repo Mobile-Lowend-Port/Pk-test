@@ -47,9 +47,9 @@ import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
 
-#if modchat
+//#if modchat
 import modcharting.ModchartFuncs;
-#end
+//#end
 
 #if hscript
 import hscript.Parser;
